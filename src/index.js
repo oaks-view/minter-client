@@ -35,6 +35,7 @@ window.addEventListener('load', async function startApp() {
 
     async mint() {
       const amount = Number($('#mint-value').val());
+      $('#info-general').show();
 
       if (isNaN(amount) || amount < 1) {
         // eslint-disable-next-line max-len
@@ -54,7 +55,6 @@ window.addEventListener('load', async function startApp() {
         };
 
         const receipt = await this.web3js.eth.sendTransaction(tx);
-        $('#info-general').show();
         console.log(receipt);
         $('#mint-value').val('');
         this.setTotalSupply();
