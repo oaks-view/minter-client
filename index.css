@@ -1,0 +1,67 @@
+body {
+    background-color: #ffff;
+    padding: 2em;
+    font-family: ‘Raleway’, ’Source Sans Pro’, ‘Arial’;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    height: 4em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+#buttonMessage {
+    float: left;
+}
+
+#total-supply-container {
+    background-color: #F0F0F0;
+    text-align: center;
+    width: 50%;
+    margin: 1em 0;
+    border-radius: 1em;
+    border-width: 0.4em;
+}
+
+#total-supply-container > p {
+    display: inline-block;
+}
+
+.error-display {
+    color: firebrick;
+}
+
+#info-general {
+    color: #2196F3;
+}

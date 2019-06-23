@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minter -dapp for FLT token</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 id="errors-general" class="error-display" hidden>Please switch network to "Rinkeby"</h3>
+        <h3 id="info-general" hidden>request processing...</h3>
+        <h1>Minter client - FLT token</h1>
+        <div id='form'>
+            <input id="mint-value" type="number" />
+            <button id="mint-btn">Click to mint</button>
+        </div>
+
+        <div id="total-supply-container">
+            <p>total supply:</p>
+            <span id="total-supply">fetching...</span>
+        </div>
+
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
