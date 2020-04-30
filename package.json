@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "domready": "^1.0.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "web3": "1.0.0-beta.34"
   }
 }
