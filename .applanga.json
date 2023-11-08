@@ -1,0 +1,25 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "language": "en",
+          "path": "./package.json",
+          "tag": "app:language.json"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "path": "./<language>.json",
+          "tag": "app:language.json"
+        }
+      ]
+    }
+  }
+}
